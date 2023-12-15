@@ -1,0 +1,50 @@
+Multichar_Symbols
+
+%<n%>               ! Noun
+%<pl%>              ! Plural
+%<adv%>              ! Adjective
+%<gen%>             ! Genitive
+
+
+LEXICON Root
+Noun;
+
+LEXICON PLURAL_S
+tree%<n%>%<pl%>:trees #;
+cow%<n%>%<pl%>:cows #;
+cat%<n%>%<pl%>:cats #;
+neighbour%<n%>%<pl%>:neighbours #;
+rainbow%<n%>%<pl%>:rainbows #;
+star%<n%>%<pl%>:stars #;
+hat%<n%>%<pl%>:hats #;
+
+
+LEXICON PLURAL_ES
+class%<n%>%<pl%>: classes #;
+glass%<n%>%<pl%>:glasses #;
+watch%<n%>%<pl%>:watches #;
+
+LEXICON PLURAL_IES
+family%<n%>%<pl%>:families #;
+ally%<n%>%<pl%>:allies #;
+bakery%<n%>%<pl%>:bakeries #;
+city%<n%>%<pl%>:cities #;
+
+
+LEXICON CASE_S
+man%<n%>%<gen%>: man's #;
+teacher%<n%>%<gen%>:teacher's #;
+woman%<n%>%<gen%>: woman's #;
+
+LEXICON DERIVATIONS
+friend%<n%>%<adv%>:friendly #;
+cloud%<n%>%<adv%>:cloudy #;
+sun%<n%>%<adv%>:sunny #;
+
+
+LEXICON Noun
+PLURAL_S;
+PLURAL_ES;
+PLURAL_IES;
+CASE_S;
+DERIVATIONS;
